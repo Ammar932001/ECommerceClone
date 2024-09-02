@@ -6,8 +6,7 @@
             :category-items="category" 
             :slider-home="sliderHome"
             />
-        </div>
-      
+        </div>      
         {{ cat }}
     </div> 
 </template>
