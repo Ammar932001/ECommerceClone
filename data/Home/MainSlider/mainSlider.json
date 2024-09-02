@@ -1,0 +1,27 @@
+[
+    {
+        "id":1,
+        "url":"/sliderimg1.png",
+        "alt":"Undefined1"
+    },
+    {
+        "id":2,
+        "url":"/sliderimg1.png",
+        "alt":"Undefined2"
+    },
+    {
+        "id":3,
+        "url":"/sliderimg1.png",
+        "alt":"Undefined3"
+    },
+    {
+        "id":4,
+        "url":"/sliderimg1.png",
+        "alt":"Undefined4"
+    },   
+    {
+        "id":5,
+        "url":"/sliderimg1.png",
+        "alt":"Undefined5"
+    }
+]
