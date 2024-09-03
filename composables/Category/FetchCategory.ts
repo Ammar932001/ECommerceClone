@@ -1,4 +1,4 @@
-export const FetchCategory = async (name: String): Promise<any> => {
+export const FetchCategory = async (name: String | Number): Promise<any> => {
     let isLoading = true;
     let errorOccurred = false;
   

@@ -6,7 +6,11 @@ export default defineEventHandler(async (event) => {
         const Products2 = await Products
         let category = body.slug    
         if(category !== undefined && category !== null){
-            return Products.filter(product => product.category === category );
+            if(typeof category === 'number'){
+                return Products.filter(product => product.category_id === category);
+            } else {
+                return Products.filter(product => product.category === category);
+            }
         }
     }
     return body;

@@ -26,7 +26,7 @@ export const MenuItems = [
           },
           {
             id:3,
-            title: 'Tablets',
+            title: 'Gaming',
             categoryId: 78
           }
         ]

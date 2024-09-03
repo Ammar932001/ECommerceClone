@@ -9,10 +9,10 @@
         <div>
           <ul class="text-base flex gap-4">
             <li v-for="item in MenuItems" :key="item.id" class="relative">
-              <span><nuxt-link to="/">{{ item.title }}</nuxt-link></span>
+              <span @click="toggleMenu()">{{ item.title }} </span>
               <!-- Check if the item has subItems -->
               <ul v-if="item.subItems" class="absolute bg-white shadow-md mt-2">
-                <li v-for="subItem in item.subItems" :key="subItem.id" class="px-4 py-2" v-if="true">
+                <li v-for="subItem in item.subItems" :key="subItem.id" class="px-4 py-2" v-if="menuOpen">
                   <nuxt-link :to="`/category/${subItem.categoryId}`">{{ subItem.title }}</nuxt-link>
                 </li>
               </ul>
@@ -32,6 +32,8 @@
   </div>
 </template>
 <script setup lang="ts">
+const menuOpen = ref(false);
+const toggleMenu = () => menuOpen.value = !menuOpen.value;
 
 </script>
 

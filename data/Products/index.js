@@ -9,8 +9,11 @@ export const Products =[
         "description": "PlayStation 5 Controller Skin High quality vinyl with air channel adhesive for easy bubble free install & mess free removal Pressure sensitive.",
         "ratings": 4,
         "category": "Gaming",
+        "category_id": 78,
         "colors": ["red","blue","black","white"],
         "sizes": ["small","medium","large"],
+        "stars":5,
+        "reviews": 10,
     },
     {
         "id":2,
@@ -22,8 +25,11 @@ export const Products =[
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, laudantium.",
         "ratings": 4,
         "category": "Computers",
+        "category_id": 22,
         "colors": ["red","blue","black","white"],
         "sizes": ["small","medium","large"],
+        "stars":4,
+        "reviews": 420,
     },
     {
         "id":3,
@@ -35,8 +41,11 @@ export const Products =[
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, laudantium.",
         "ratings": 4,
         "category": "Smart Watch",
+        "category_id": 1,
         "colors": ["red","blue","black","white"],
         "sizes": ["small","medium","large"],
+        "stars":3,
+        "reviews": 120,
     },
     {
         "id":4,
@@ -48,8 +57,11 @@ export const Products =[
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, laudantium.",
         "ratings": 4,
         "category": "HeadPhones",
+        "category_id": 34,
         "colors": ["red","blue","black","white"],
         "sizes": ["small","medium","large"],
+        "stars":4,
+        "reviews": 150,
     },
     {
         "id":5,
@@ -61,8 +73,11 @@ export const Products =[
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, laudantium.",
         "ratings": 4,
         "category": "Computers",
+        "category_id": 22,
         "colors": ["red","blue","black","white"],
         "sizes": ["small","medium","large"],
+        "stars":4,
+        "reviews": 320,
     },
     {
         "id":6,
@@ -74,8 +89,11 @@ export const Products =[
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, laudantium.",
         "ratings": 4,
         "category": "Computers",
+        "category_id": 22,
         "colors": ["red","blue","black","white"],
         "sizes": ["small","medium","large"],
+        "stars":3,
+        "reviews": 160,
     }
 
 
