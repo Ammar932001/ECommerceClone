@@ -1,6 +1,6 @@
 <template>
     <div class="container mx-auto">
-      <div v-if="!isLoading && data" class="flex gap-10" >
+      <div v-if="!isLoading && data" class="flex gap-10 mt-40" >
         <div class="flex flex-col gap-4">
           <div class="w-[170px] h-[138px] bg-[#f5f5f5] border-[#f5f5f5] flex p-4 justify-center align-center">
             <img src="/pdtgal1.png" alt="" srcset="">
@@ -24,21 +24,14 @@
                 {{ data.title }}
             </h1>
             <div class="flex">
-              <IconsStar :star-count="4"  />
+              <IconsStar :star-count="data.ratings"  />
+              <p class="text-[#7f7f7f] text-[14px]">({{ data.reviews }} REVIEWS)</p>
+            </div>
+            <div>
+              <span>${{ data.final_price }}</span>
             </div>
             Description
         </div>
-        <!-- <div class="flex">
-            <img :src="data.url" alt="">
-            <div>
-                <h1>{{ data.title }}</h1>
-            </div>
-        </div>
-           >>>>>{{ data }}
-        </div>
-        <div v-else>
-            <h1>Error Page Not Found</h1>
-        </div> -->
     </div>
     </div>
 </template>
