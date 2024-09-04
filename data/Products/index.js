@@ -14,6 +14,8 @@ export const Products =[
         "sizes": ["small","medium","large"],
         "stars":5,
         "reviews": 10,
+        "flash_sale": true,
+        "best_selling": true
     },
     {
         "id":2,
@@ -30,6 +32,8 @@ export const Products =[
         "sizes": ["small","medium","large"],
         "stars":4,
         "reviews": 420,
+        "flash_sale": true,
+        "best_selling": true
     },
     {
         "id":3,
@@ -46,6 +50,8 @@ export const Products =[
         "sizes": ["small","medium","large"],
         "stars":3,
         "reviews": 120,
+        "flash_sale": true,
+        "best_selling": true
     },
     {
         "id":4,
@@ -62,6 +68,8 @@ export const Products =[
         "sizes": ["small","medium","large"],
         "stars":4,
         "reviews": 150,
+        "flash_sale": true,
+        "best_selling": false
     },
     {
         "id":5,
@@ -78,6 +86,8 @@ export const Products =[
         "sizes": ["small","medium","large"],
         "stars":4,
         "reviews": 320,
+        "flash_sale": false,
+        "best_selling": false
     },
     {
         "id":6,
@@ -94,6 +104,9 @@ export const Products =[
         "sizes": ["small","medium","large"],
         "stars":3,
         "reviews": 160,
+        "flash_sale": false,
+        "best_selling": true
+
     }
 
 
