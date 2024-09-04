@@ -16,22 +16,27 @@
           </div>
             
         </div>
-        <div class="w-[500px] h-[600px] bg-[#f5f5f5] flex p-4 justify-center align-center">
-           <img :src="data.url" alt="">
+        <div class="w-[500px] h-[600px] bg-[#f5f5f5] flex p-14 justify-center align-center">
+           <img src="/pdt_main.png" alt="">
         </div>
-        <div>
+        <div class="ml-8">
             <h1 class="text-[24px] font-semibold">
                 {{ data.title }}
             </h1>
-            <div class="flex">
+            <div class="flex my-4">
               <IconsStar :star-count="data.ratings"  />
-              <p class="text-[#7f7f7f] text-[14px]">({{ data.reviews }} REVIEWS)</p>
+              <p class="text-[#7f7f7f] text-[14px] ml-4">({{ data.reviews }}  REVIEWS)</p>
             </div>
             <div>
-              <span>${{ data.final_price }}</span>
+              <span class="text-[24px]">${{ data.final_price }}</span>
             </div>
-            Description
+            <div class="py-4 mb-4">
+              <p class="text-[14px]">{{ data.description }}</p>
+            </div>
+            <hr>           
+            
         </div>
+        <!--  -->
     </div>
     </div>
 </template>
