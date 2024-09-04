@@ -8,8 +8,7 @@
             :flash-sale-items="flashitem"
             :best-selling="bestSelling"
             />
-        </div>  
-        {{ bestSelling }}    
+        </div>    
     </div> 
 </template>
 <script setup lang="ts">
