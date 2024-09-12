@@ -12,7 +12,8 @@
         :best-selling="bestSelling"
         />
         <home-category-banner />
-        <home-free-shipping />  
+        <home-free-shipping /> 
+        <!-- <home-generate-reviews />  -->
         
     </div>
 </template>
